@@ -1,0 +1,11 @@
+location = "westus" #location of the azure resource group located
+environment = "poc" #project env
+project = "7-11"    #project name
+databricks_sku = "standard"     #sku standard/premium/trail
+resource_group_name = "mlops-RnD-RG" 
+vmnet = "mlops-rnd-vnet"
+workspace_name = "poc-7-11"
+backend_storage_name = "tfstate"
+cluster_name = "7-11-POC"
+pythonpackage = ["mlflow","xlrd","pandas","numpy","scikit-learn","matplotlib","databricks-feature-store"]
+spark_version = "11.3.x-scala2.12"
