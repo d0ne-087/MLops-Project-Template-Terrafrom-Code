@@ -7,5 +7,5 @@ vmnet = "mlops-rnd-vnet"
 workspace_name = "poc-7-11"
 backend_storage_name = "tfstate"
 cluster_name = "7-11-POC"
-pythonpackage = ["mlflow","xlrd","pandas","numpy","scikit-learn","matplotlib","databricks-feature-store"]
-spark_version = "11.3.x-scala2.12"
+pythonpackage = ["mlflow","xlrd","pandas","numpy","scikit-learn","matplotlib","databricks-feature-store","great-expectations","feature_engine"]
+spark_version = "12.1.x-scala2.12"
